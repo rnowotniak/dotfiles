@@ -1,0 +1,31 @@
+# vim: set ft=screen:
+
+autodetach on
+
+deflogin on
+
+startup_message off
+
+#shell zsh
+
+hardstatus alwayslastline "%{=b bw} %H %{= dd} %{= dw}%?%-Lw%?%{=b ry}%n*%f %t%?(%u)%?%{= dw}%?%+Lw%?"
+
+sorendition   "=b bw"
+
+bindkey "\033[R44" command
+bindkey "\033[R44\033" command
+#bindkey -k kb stuff "\177"
+
+termcap xterm kb=\177
+terminfo xterm kbs=\177
+
+activity              "Activity in window %n (%t)"
+bell                  "Bell in window %n (%t)"
+
+vbell on
+vbell_msg "      *** BEEP! ***      "
+termcapinfo * vb=
+
+bind "\011" other
+
+
