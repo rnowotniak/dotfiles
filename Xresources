@@ -1,0 +1,175 @@
+! UXTERM
+UXTerm*background: black
+UXTerm*foreground: white
+UXTerm*scrollBar: False
+!UXTerm*font: -*-fixed-medium-r-*-*-14-*-*-*-*-*-iso8859-2
+UXTerm*font: -*-terminus-medium-*-*-*-18-*-*-*-*-*-iso10646-*
+!UXTerm*geometry: 90x33+5+5
+!UXTerm*termName: xterm
+UXTerm*color0: #000000
+UXTerm*color1: #AF0000
+UXTerm*color2: #00AB00
+UXTerm*color3: #CF7520
+UXTerm*color4: #0000AF
+!UXTerm*color5: #AF00AF
+UXTerm*color5: #B63CA6
+UXTerm*color6: #00ABAF
+UXTerm*color7: #AFABAF
+UXTerm*color8: #515551
+UXTerm*color9: #FF5551
+!UXTerm*color12: #5155FF
+UXTerm*color12: #7A90FF
+UXTerm*color13: #FF55FF
+UXTerm*color15: #FFFFFF
+! UXTerm*color1: OrangeRed
+! UXTerm*color4: DodgerBlue3
+! UXTerm*color8: gray40
+! UXTerm*color12: SteelBlue1
+UXTerm*highlightColor: #313531
+UXTerm*BoldColors: true
+UXTerm*BoldMode: false
+!UXTerm*boldFont: -etl-fixed-*-r-normal-*-14-*-*-*-c-*-iso8859-2
+! UXTerm*boldFont: -*-terminus-bold-r-normal-*-16-*-*-*-*-*-iso8859-2
+! UXTerm*eightBitInput: false
+UXTerm*metaSendsEscape: true
+UXTerm*cursorBlink: true
+UXTerm*cursorColor: #61FFCF
+
+
+! xterm
+XTerm*background: white
+XTerm*foreground: gray
+XTerm*scrollBar: False
+!XTerm*font: -*-fixed-medium-r-*-*-14-*-*-*-*-*-iso8859-2
+!XTerm*font: -*-terminus-medium-r-normal-*-16-*-*-*-*-*-iso8859-2
+XTerm*geometry: 90x33+5+5
+!XTerm*termName: xterm
+XTerm*color0: #000000
+XTerm*color1: #AF0000
+XTerm*color2: #00AB00
+XTerm*color3: #CF7520
+XTerm*color4: #0000AF
+!XTerm*color5: #AF00AF
+XTerm*color5: #B63CA6
+XTerm*color6: #00ABAF
+XTerm*color7: #AFABAF
+XTerm*color8: #515551
+XTerm*color9: #FF5551
+!XTerm*color12: #5155FF
+XTerm*color12: #7A90FF
+XTerm*color13: #FF55FF
+XTerm*color15: #FFFFFF
+! XTerm*color1: OrangeRed
+! XTerm*color4: DodgerBlue3
+! XTerm*color8: gray40
+! XTerm*color12: SteelBlue1
+XTerm*highlightColor: #313531
+XTerm*BoldColors: true
+XTerm*BoldMode: false
+!XTerm*boldFont: -etl-fixed-*-r-normal-*-14-*-*-*-c-*-iso8859-2
+! XTerm*boldFont: -*-terminus-bold-r-normal-*-16-*-*-*-*-*-iso8859-2
+! XTerm*eightBitInput: false
+XTerm*metaSendsEscape: true
+XTerm*cursorBlink: true
+XTerm*cursorColor: #61FFCF
+
+
+
+
+Rxvt*cursorBlink: true
+
+!*font*:*-fixed-medium-r-*-*-13-*-*-*-*-*-iso8859-2
+
+!model*fontList:        6x13bold
+!model*XmRowColumn*fontList:  -*-helvetica-medium-r-normal--10-*-*-*-*-*-*-*
+!model*Parameters*fontList:   7x14
+!error*fontList:          6x13bold
+
+! model*fontList:        *-fixed-medium-r-*-*-13-*-*-*-*-*-iso8859-2
+! model*XmRowColumn*fontList:  *-fixed-medium-r-*-*-13-*-*-*-*-*-iso8859-2
+! model*Parameters*fontList:  *-fixed-medium-r-*-*-13-*-*-*-*-*-iso8859-2
+! *fontList:          *-fixed-medium-r-*-*-13-*-*-*-*-*-iso8859-2
+
+
+
+
+*grabKeyboard: true
+
+!Vim*menuFont: -etl-fixed-*-*-*-*-*-*-*-*-*-*-iso8859-2
+!Vim*menuFontSet: -etl-fixed-*-*-*-*-*-*-*-*-*-*-iso8859-2
+!Vim.geometry: 110x45
+!Vim*useSchemes:			all
+!Vim*sgiMode:   			true
+!Vim*useEnhancedFSB:		true
+!Vim*scrollBackground:   black
+!Vim*menuForeground:     #D0D0D0
+!Vim*menuBackground:     #101010
+!Vim*background:			#101010
+! Vim.menuFont:			   -*-fixed-*-*-*-*-14-*-*-*-*-*-iso8859-2
+! Vim.menuFontSet:	 	   -*-fixed-*-*-*-*-14-*-*-*-*-*-iso8859-2
+!Vim.font:      	 	   -*-fixed-*-*-*-*-14-*-*-*-*-*-iso8859-2
+!Vim.font:      	 	   -*-fixed-*-*-*-*-*-*-*-*-*-*-iso8859-2
+! Vim.fontSet:     	 	   -*-fixed-*-*-*-*-14-*-*-*-*-*-iso8859-2
+Vim.*font*:      	 	   -*-fixed-*-*-*-*-19-*-*-*-*-*-iso8859-2
+Vim.*Font*:      	 	   -*-fixed-*-*-*-*-19-*-*-*-*-*-iso8859-2
+
+
+
+xdaliclock.mode: 24
+xdaliclock.font: -*-terminus-*-*-*-*-32-*-*-*-*-*-iso8859-2
+xdaliclock.foreground: #FF2233
+xdaliclock.geometry: +0-0
+
+
+Aterm*transparent: False
+Aterm*shading: 80
+Aterm*fading: 50
+
+
+! gnuplot*background: white
+! gnuplot*textColor: black
+! gnuplot*borderColor: black
+! gnuplot*axisColor: black
+gnuplot*line2Color: #00DD00
+
+! odkomentowaæ
+
+! gnuplot*background: black
+! gnuplot*textColor: white
+! gnuplot*borderColor: white
+! gnuplot*axisColor: white
+! 
+! 
+! 
+! gnuplot*textGray: black
+! gnuplot*borderGray: gray50
+! gnuplot*axisGray: gray50
+! gnuplot*line1Gray: black
+! gnuplot*line2Gray: gray40
+! gnuplot*line3Gray: gray20
+! gnuplot*line4Gray: gray60
+! gnuplot*line5Gray: gray10
+! gnuplot*line6Gray: gray50
+! gnuplot*line7Gray: gray30
+! gnuplot*line8Gray: gray70
+
+
+!
+! I hate pasting with mouse button, so I disable it permanently here
+!
+!*VT100.Translations: #override \
+!	Alt<KeyPress>: insert-eight-bit() \n\
+! 	<Btn2Up>: string("") \n\
+! 	<Key>Cancel: string("\033[R40") \n\
+! 	Meta<KeyPress>: string("\033[R44") insert()
+!
+
+
+*VT100.Translations: #override \
+	Alt<KeyPress>: insert-eight-bit() \n\
+ 	<Btn2Up>: string("") \n\
+ 	<Key>Cancel: string("\033[R40") \n\
+ 	Meta<KeyPress>: string("\033[R44") insert-seven-bit()
+
+
+
