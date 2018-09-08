@@ -1,11 +1,12 @@
 
 setxkbmap pl
 xrdb -merge .Xresources
+wicd-gtk -t &
 volumeicon &
 cbatticon &
 dropbox &
 
-xrandr --output HDMI-1 --left-of eDP-1
+xrandr --output HDMI-1 --primary --left-of eDP-1
 
 ## Moved to WM autostart (awesomewm)
 # xinput --map-to-output  $( xinput list --id-only "Wacom HID 50DB Finger")  eDP-1
