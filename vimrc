@@ -2,7 +2,7 @@
 "  Robert Nowotniak,  2001-2018
 "
 syn on
-set ic autoindent hlsearch incsearch
+set ic autoindent hlsearch incsearch nowrap
 finish " !!!
 
 
