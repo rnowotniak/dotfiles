@@ -6,3 +6,5 @@
 
 alias l='ls -l'
 
+[ `tty` = /dev/tty1 ] && startx
+
