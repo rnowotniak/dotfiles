@@ -1,15 +1,26 @@
 
 setxkbmap pl
+
+redshift-gtk -l 54.35:18.64 &
+
+xhost -
+
+wicd-gtk --tray &
+
 xrdb -merge .Xresources
-wicd-gtk -t &
-volumeicon &
-cbatticon &
-dropbox &
 
-xrandr --output HDMI-1 --primary --left-of eDP-1
+[ -d /mnt/wd/Dropbox ] && dropbox &
 
-## Moved to WM autostart (awesomewm)
-# xinput --map-to-output  $( xinput list --id-only "Wacom HID 50DB Finger")  eDP-1
-# xinput set-prop "SYNA2B2C:01 06CB:7F27 Touchpad"  $( xinput list-props "SYNA2B2C:01 06CB:7F27 Touchpad" | grep -i 'tapping enabled (' | sed -e 's/.*(\(.*\)).*/\1/') 1
+xrandr --output DP-1-1 --mode 1680x1050 
+xrandr --output DP-1-2 --mode 1680x1050 --primary --right-of DP-1-1
+xrandr --output eDP-1 --off
+xrandr --output DP-2 --mode 1680x1050 --right-of DP-1-2
 
-exec awesome
+
+# conky -u 5 -c ~/.config/conky/conky.conf -d --no-startup-id &
+# conky -u 5 -c ~/.config/conky/conky2.conf -d --no-startup-id &
+# conky -u 5 -c ~/.config/conky/conky3.conf -d --no-startup-id &
+
+# exec awesome
+exec i3
+# exec mwm
