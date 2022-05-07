@@ -1,10 +1,8 @@
 "
-"  Robert Nowotniak,  2001-2018
+"  Robert Nowotniak,  2001-2022
 "
 syn on
 set ic autoindent hlsearch incsearch nowrap
-finish " !!!
-
 
 "
 "  I used to use all below settings (and much more) many years back.
