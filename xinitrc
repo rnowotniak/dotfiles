@@ -3,6 +3,8 @@ setxkbmap pl
 
 redshift-gtk -l 54.35:18.64 -t 4000:2000 &
 
+export TERMINAL=lxterminal
+
 xhost -
 
 # wicd-gtk --tray &
@@ -21,7 +23,7 @@ xrdb -merge .Xresources
 
 # this is for 3 monitors each one in portrait mode
 #  | | |
-xrandr --output DP-1-2 --rotate left
+xrandr --output DP-1-2 --rotate normal
 xrandr --output DP-1-1 --rotate right
 xrandr --output DP-2 --rotate right
 xrandr --output DP-1-1 --right-of DP-1-2
@@ -34,11 +36,16 @@ xrandr --output DP-2 --right-of DP-1-2 --primary
 xrandr --output DP-1-1 --right-of DP-2
 
 
+# to jest dwa dwoch:
+xrandr --output DP-2 --off
+xrandr --output DP-1-1 --rotate normal --right-of DP-1-2
+xrandr --output eDP-1 --off
 
 # conky -u 5 -c ~/.config/conky/conky.conf -d --no-startup-id &
 # conky -u 5 -c ~/.config/conky/conky2.conf -d --no-startup-id &
 # conky -u 5 -c ~/.config/conky/conky3.conf -d --no-startup-id &
 
 # exec awesome
-exec i3
+#exec i3
+exec lxsession
 # exec mwm
